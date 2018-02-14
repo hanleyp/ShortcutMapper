@@ -1,0 +1,551 @@
+{
+    "name" : "Ableton Live",
+    "version" : "10",
+    "os" : "mac",
+    "mods_used" : ["ALT", "COMMAND", "CONTROL", "SHIFT"],
+    "default_context" : "Showing and Hiding Views",
+    "contexts" : {
+        "Showing and Hiding Views" : {
+            "F" : [
+                {"name":"Toggle Full Screen Mode", "mods":["CONTROL", "COMMAND"]}
+            ],
+            "W" : [
+                {"name":"Toggle Second Window", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "TAB" : [
+                {"name":"Toggle Session/ Arrangement View", "mods":[]},
+                {"name":"Toggle Device/Clip View", "mods":["SHIFT"]}
+            ],
+            "F12" : [
+                {"name":"Toggle Device/Clip View", "mods":["CONTROL"]},
+                {"name":"Hide/Show Detail View", "mods":["CONTROL", "SHIFT"]}
+            ],
+            "L" : [
+                {"name":"Hide/Show Detail View", "mods":["ALT", "COMMAND"]}
+            ],
+            "Q" : [
+                {"name":"Toggle Hot-Swap Mode", "mods":[]}
+            ],
+            "D" : [
+                {"name":"Toggle Drum Rack Pad", "mods":[]}
+            ],
+            "SLASH" : [
+                {"name":"Hide/Show Info View", "mods":["SHIFT"]}
+            ],
+           "V" : [
+                {"name":"Hide/Show Video Window", "mods":["ALT", "COMMAND"]}
+            ],
+           "B" : [
+                {"name":"Hide/Show Browser", "mods":["ALT", "COMMAND"]}
+            ],
+           "O" : [
+                {"name":"Hide/Show Overview", "mods":["ALT", "COMMAND"]}
+            ],
+           "I" : [
+                {"name":"Hide/Show In/Out", "mods":["ALT", "COMMAND"]}
+            ],
+           "S" : [
+                {"name":"Hide/Show Sends", "mods":["ALT", "COMMAND"]}
+            ],
+           "M" : [
+                {"name":"Hide/Show Mixer", "mods":["ALT", "COMMAND"]}
+            ],
+           "COMMA" : [
+                {"name":"Open the Preferences", "mods":["COMMAND"]}
+            ],
+           "ESCAPE" : [
+                {"name":"Close Window/ Dialog", "mods":[]}
+            ]
+        },
+        "Accessing Menus" : {
+           "SLASH" : [
+                {"name":"Search Menu Entries", "mods":["COMMAND", "SHIFT"]}
+            ]
+        },
+        "Adjusting Values" : {
+           "UP_ARROW" : [
+                {"name":"Increment Value", "mods":[]}
+            ],
+           "DOWN_ARROW" : [
+                {"name":"Decrement Value", "mods":[]}
+            ],
+           "DELETE" : [
+                {"name":"Return to Default", "mods":[]}
+            ],
+           "PERIOD" : [
+                {"name":"Go to Next Field (Bar.beat. 16th)", "mods":[]}
+            ],
+           "COMMA" : [
+                {"name":"Go to Next Field (Bar.beat. 16th)", "mods":[]}
+            ],
+           "ESCAPE" : [
+                {"name":"Abort Value Entry", "mods":[]}
+            ],
+           "COMMAND" : [
+                   {"name":"Finer Resolution for Dragging", "mods":[]}
+           ],
+            "ENTER" : [
+                {"name":"Confirm Value Entry", "mods":[]}
+            ]
+        },
+        "Browsing" : {
+           "UP_ARROW" : [
+                {"name":"Scroll Up", "mods":[]}
+            ],
+           "DOWN_ARROW" : [
+                {"name":"Scroll Down/Jump to Search Results", "mods":[]}
+            ],
+           "LEFT_ARROW" : [
+                {"name":"Close Folders", "mods":[]}
+            ],
+           "RIGHT_ARROW" : [
+                {"name":"Open Folders", "mods":[]}
+            ],
+            "ENTER" : [
+                {"name":"Load Selected Item from Browser", "mods":[]},
+                {"name":"Preview Selected File", "mods":["SHIFT"]}
+            ],
+            "F" : [
+                {"name":"Search in Browser", "mods":["COMMAND"]}
+            ],
+           "ONE" : [
+                {"name":"Assign Red to Selected Browser Item", "mods":[]}
+            ],
+           "TWO" : [
+                {"name":"Assign Orange to Selected Browser Item", "mods":[]}
+            ],
+           "THREE" : [
+                {"name":"Assign Yellow to Selected Browser Item", "mods":[]}
+            ],
+           "FOUR" : [
+                {"name":"Assign Green to Selected Browser Item", "mods":[]}
+            ],
+           "FIVE" : [
+                {"name":"Assign Blue to Selected Browser Item", "mods":[]}
+            ],
+           "SIX" : [
+                {"name":"Assign Purple to Selected Browser Item", "mods":[]}
+            ],
+           "SEVEN" : [
+                {"name":"Assign Gray to Selected Browser Item", "mods":[]}
+            ],
+           "ZERO" : [
+                {"name":"Reset Assigned Color(s) for Selected Browser Item", "mods":[]}
+            ]
+        },
+        "Transport" : {
+            "SPACE" : [
+                {"name":"Play from Start Marker/Stop or Play Arrangement View Selection", "mods":[]},
+                {"name":"Continue Play from Stop Point", "mods":["SHIFT"]}
+            ],
+            "HOME" : [
+                {"name":"Move Insert Marker to Beginning", "mods":[]}
+            ],
+            "F9" : [
+                {"name":"Record", "mods":[]}
+            ],
+            "F10" : [
+                {"name":"Back to Arrange-ment", "mods":[]}
+            ],
+            "F1" : [
+                {"name":"Activate/ Deactivate Track 1", "mods":[]}
+            ],
+            "F2" : [
+                {"name":"Activate/ Deactivate Track 2", "mods":[]}
+            ],
+            "F3" : [
+                {"name":"Activate/ Deactivate Track 3", "mods":[]}
+            ],
+            "F4" : [
+                {"name":"Activate/ Deactivate Track 4", "mods":[]}
+            ],
+            "F5" : [
+                {"name":"Activate/ Deactivate Track 5", "mods":[]}
+            ],
+            "F6" : [
+                {"name":"Activate/ Deactivate Track 6", "mods":[]}
+            ],
+            "F7" : [
+                {"name":"Activate/ Deactivate Track 7", "mods":[]}
+            ],
+            "F8" : [
+                {"name":"Activate/ Deactivate Track 8", "mods":[]}
+            ]
+        },
+        "Editing" : {
+            "X" : [
+                {"name":"Cut", "mods":["COMMAND"]}
+            ],
+            "C" : [
+                {"name":"Copy", "mods":["COMMAND"]}
+            ],
+            "V" : [
+                {"name":"Paste", "mods":["COMMAND"]}
+            ],
+            "D" : [
+                {"name":"Duplicate", "mods":["COMMAND"]}
+            ],
+            "Z" : [
+                {"name":"Undo", "mods":["COMMAND"]}
+            ],
+            "Y" : [
+                {"name":"Redo", "mods":["COMMAND"]}
+            ],
+            "R" : [
+                {"name":"Rename", "mods":["COMMAND"]}
+            ],
+            "A" : [
+                {"name":"Select All", "mods":["COMMAND"]}
+            ],
+            "SHIFT" : [
+                {"name":"Apply Command to Clips and Slots Across all Tracks or Time Across all Tracks", "mods":[]}
+            ],
+            "ALT" : [
+                {"name":"Apply Command to The Selected Part of Env", "mods":[]}
+            ],
+            "DELETE" : [
+                {"name":"Delete", "mods":[]}
+            ],
+            "TAB" : [
+                {"name":"Move to next track or scene while Renaming", "mods":[]}
+            ]
+        },
+        "Loop Brace and Start/End Markers" : {
+            "SHIFT" : [
+                {"name":"Click to Move Start Marker to Position", "mods":[]}
+            ],
+           "UP_ARROW" : [
+                {"name":"Move Loop By Loop Length Right", "mods":[]},
+                {"name":"Double Loop Length", "mods":["COMMAND"]}
+            ],
+           "DOWN_ARROW" : [
+                {"name":"Move Loop By Loop Length Left", "mods":[]},
+                {"name":"Halve Loop Length", "mods":["COMMAND"]}
+            ],
+           "LEFT_ARROW" : [
+                {"name":"Nudge Loop Left", "mods":[]},
+                {"name":"Shorten Loop", "mods":["COMMAND"]}
+            ],
+           "RIGHT_ARROW" : [
+                {"name":"Nudge Loop Right", "mods":[]},
+                {"name":"Lengthen Loop", "mods":["COMMAND"]}
+            ],
+            "L" : [
+                {"name":"Select Material in Loop", "mods":["COMMAND", "SHIFT"]}
+            ]
+        },
+        "Session View Commands" : {
+            "ENTER" : [
+                {"name":"Launch Selected Clip/Slot", "mods":[]}
+            ],
+           "UP_ARROW" : [
+                {"name":"Select Neighboring Clip/Slot", "mods":[]},
+                {"name":"Move Non-adjacent Scenes Without Collapsing", "mods":["COMMAND"]}
+            ],
+           "DOWN_ARROW" : [
+                {"name":"Select Neighbor-ing Clip/Slot", "mods":[]},
+                {"name":"Move Non-adjacent Scenes Without Collapsing", "mods":["COMMAND"]}
+            ],
+           "LEFT_ARROW" : [
+                {"name":"Select Neighboring Clip/Slot", "mods":[]}
+            ],
+           "RIGHT_ARROW" : [
+                {"name":"Select Neighboring Clip/Slot", "mods":[]}
+            ],
+            "A" : [
+                {"name":"Select all Clips/Slots", "mods":["COMMAND"]}
+            ],
+            "ZERO" : [
+                {"name":"Deactivate Selected Clip", "mods":[]}
+            ],
+            "ALT" : [
+                {"name":"Drag to Copy Clips", "mods":[]}
+            ],
+            "E" : [
+                {"name":"Add/ Remove Stop Button", "mods":["COMMAND"]}
+            ],
+            "M" : [
+                {"name":"Insert MIDI clip", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "I" : [
+                {"name":"Insert Scene", "mods":["COMMAND"]},
+                {"name":"Insert Captured Scene", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "ALT" : [
+                {"name":"Drop Browser Clips as a Scene", "mods":[]}
+            ]
+        },
+        "Arrangement View Commands" : {
+            "E" : [
+                {"name":"Split Clip at Selection", "mods":["COMMAND"]}
+            ],
+            "J" : [
+                {"name":"Consolidate Selection into Clip", "mods":["COMMAND"]}
+            ],
+            "F" : [
+                {"name":"Create Fade/Crossfade", "mods":["ALT", "COMMAND"]},
+                {"name":"Scroll Display to Follow Playback", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "L" : [
+                {"name":"Toggle Loop Selection", "mods":["COMMAND"]}
+            ],
+            "I" : [
+                {"name":"Insert Silence", "mods":["COMMAND"]}
+            ],
+            "ZERO" : [
+                {"name":"Deactivate Selection", "mods":[]}
+            ],
+            "ALT" : [
+                {"name":"Click to Unfold all Tracks", "mods":[]},
+                {"name":"Pan Left/Right of Selection", "mods":["COMMAND"]}
+            ],
+           "LEFT_ARROW" : [
+                {"name":"Nudge Selection Left", "mods":[]}
+            ],
+           "RIGHT_ARROW" : [
+                {"name":"Nudge Selection Right", "mods":[]}
+            ],
+            "R" : [
+                {"name":"Reverse Audio Clip Selection", "mods":[]}
+            ],
+            "Z" : [
+                {"name":"Zoom to Arrangement Time Selection", "mods":[]},
+                {"name":"Zoom Back from Arrangement Time Selection/Zoom Out Arrangement Completely", "mods":["SHIFT"]}
+            ]
+        },
+        "Commands for Tracks" : {
+            "T" : [
+                {"name":"Insert Audio Track", "mods":["COMMAND"]},
+                {"name":"Insert MIDI Track", "mods":["COMMAND", "SHIFT"]},
+                {"name":"Insert Return Track", "mods":["ALT", "COMMAND"]}
+            ],
+            "R" : [
+                {"name":"Rename Selected Track", "mods":["COMMAND"]}
+            ],
+            "TAB" : [
+                {"name":"While Renaming, Go to next Track", "mods":[]}
+            ],
+            "G" : [
+                {"name":"Group Selected Tracks", "mods":["COMMAND"]},
+                {"name":"Ungroup Tracks", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "EQUAL" : [
+                {"name":"Show Grouped Tracks", "mods":["SHIFT"]}
+            ],
+           "MINUS" : [
+                {"name":"Hide Grouped Tracks", "mods":[]}
+            ],
+           "UP_ARROW" : [
+                {"name":"Move Nonadja-cent Tracks w/o Coll", "mods":["COMMAND"]}
+            ],
+           "DOWN_ARROW" : [
+                {"name":"Move Nonadja-cent Tracks w/o Coll", "mods":["COMMAND"]}
+            ],
+           "LEFT_ARROW" : [
+                {"name":"Move Nonadja-cent Tracks w/o Coll", "mods":["COMMAND"]}
+            ],
+           "RIGHT_ARROW" : [
+                {"name":"Move Nonadja-cent Tracks w/o Coll", "mods":["COMMAND"]}
+            ],
+           "COMMAND" : [
+                   {"name":"Click to Arm/Solo Multiple Tracks", "mods":[]}
+           ],
+           "ENTER" : [
+                   {"name":"Add Device from Browser", "mods":[]}
+           ],
+           "ZERO" : [
+                   {"name":"Deactivate Selected Track", "mods":[]}
+           ]
+        },
+        "Commands for Breakpoint Envelopes" : {
+           "A" : [
+                   {"name":"Toggle Automation Mode", "mods":[]}
+           ],
+           "SHIFT" : [
+                   {"name":"Finer Resolution for Dragging", "mods":[]}
+           ],
+           "ALT" : [
+                   {"name":"Create Curved Automation Segment", "mods":[]}
+           ]
+        },
+        "Key/MIDI Map Mode and the Computer MIDI Keyboard" : {
+           "K" : [
+                   {"name":"Toggle Key Map Mode", "mods":["COMMAND"]}
+           ],
+           "M" : [
+                   {"name":"Computer MIDI Keyboard", "mods":[]},
+                   {"name":"Toggle MIDI Map Mode", "mods":["COMMAND"]}
+           ]
+        },
+
+        "Zooming, Display and Selections" : {
+
+           "SHIFT" : [
+                   {"name":"Drag/Click to Append to a Selection or Click to Add Adjacent Clips/Tracks/Scenes to Multi-Selection", "mods":[]}
+            ],
+            "COMMAND" : [
+                   {"name":"Click to Add Nonadjacent Clips/Tracks/Scenes to a Multi-Selection", "mods":[]}
+            ],
+            "K" : [
+                   {"name":"Follow (Auto-Scroll)", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "EQUAL" : [
+                {"name":"Zoom In", "mods":[]},
+                {"name":"Zoom In", "mods":["SHIFT"]}
+            ],
+            "MINUS" : [
+                {"name":"Zoom Out", "mods":[]}
+            ],
+            "ALT" : [
+                {"name":"Pan Left/Right of Selection", "mods":["COMMAND"]}
+            ]
+        },
+        "Clip View Sample Display" : {
+           "LEFT_ARROW" : [
+                {"name":"Move Selected Warp Marker", "mods":[]},
+                {"name":"Select Warp Marker", "mods":["COMMAND"]},
+                {"name":"Move Clip Region with Start Marker", "mods":["SHIFT"]}
+            ],
+           "RIGHT_ARROW" : [
+                {"name":"Move Selected Warp Marker", "mods":[]},
+                {"name":"Select Warp Marker", "mods":["COMMAND"]},
+                {"name":"Move Clip Region with Start Marker", "mods":["SHIFT"]}
+            ],
+            "F" : [
+                {"name":"Move Clip Region with Start Marker", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "Z" : [
+                {"name":"Zoom to Clip Selection", "mods":[]},
+                {"name":"Zoom Out from Clip Selection", "mods":["SHIFT"]}
+            ],
+            "U" : [
+                   {"name":"Quantize", "mods":["COMMAND"]},
+                   {"name":"Quantize Settings...", "mods":["COMMAND", "SHIFT"]}
+            ]
+        },
+        "Clip View MIDI Editor" : {
+           "LEFT_ARROW" : [
+                {"name":"Move Clip Region with Start Marker", "mods":["SHIFT"]}
+            ],
+           "RIGHT_ARROW" : [
+                {"name":"Move Clip Region with Start Marker", "mods":["SHIFT"]}
+            ],
+            "F" : [
+                {"name":"Scroll Display to Follow Playback", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "ALT" : [
+                {"name":"Drag to Copy Notes", "mods":[]}
+            ],
+            "COMMAND" : [
+                {"name":"Drag to Change Velocity From Note Editor", "mods":[]}
+            ],
+            "HOME" : [
+                {"name":"Drag to Change Velocity From Note Editor", "mods":[]}
+            ],
+            "END" : [
+                {"name":"Move Insert Marker to End", "mods":[]}
+            ],
+            "Z" : [
+                {"name":"Zoom to Clip Selection", "mods":[]},
+                {"name":"Zoom Out from Clip Selection", "mods":["SHIFT"]}
+            ],
+            "PAGE_UP" : [
+                {"name":"Scroll Editor Vertically", "mods":[]},
+                {"name":"Scroll Editor Horizontal-ly", "mods":["SHIFT"]}
+            ],
+            "PAGE_DOWN" : [
+                {"name":"Scroll Editor Vertically", "mods":[]},
+                {"name":"Scroll Editor Horizontal-ly", "mods":["SHIFT"]}
+            ],
+            "U" : [
+                {"name":"Quantize", "mods":["COMMAND"]},
+                {"name":"Quantize Settings...", "mods":["COMMAND", "SHIFT"]}
+            ]
+        },
+        "Grid Snapping and Drawing" : {
+            "B" : [
+                {"name":"Toggle Draw Mode", "mods":[]}
+            ],
+            "ONE" : [
+                {"name":"Narrow Grid", "mods":["COMMAND"]}
+            ],
+           "TWO" : [
+                {"name":"Widen Grid", "mods":["COMMAND"]}
+            ],
+           "THREE" : [
+                {"name":"Triplet Grid", "mods":["COMMAND"]}
+            ],
+           "FOUR" : [
+                {"name":"Snap to Grid", "mods":["COMMAND"]}
+            ],
+           "FIVE" : [
+                {"name":"Fixed/Zoom-Adaptive Grid", "mods":["COMMAND"]}
+            ],
+            "COMMAND" : [
+                {"name":"Bypass Snapping While Dragging", "mods":[]}
+            ]
+        },
+        "Global Quantization" : {
+            "SIX" : [
+                {"name":"Sixteenth-Note Quantiza-tion", "mods":["COMMAND"]}
+            ],
+            "SEVEN" : [
+                {"name":"Eighth-Note Quantiza-tion", "mods":["COMMAND"]}
+            ],
+            "EIGHT" : [
+                {"name":"Quarter-Note Quantiza-tion", "mods":["COMMAND"]}
+            ],
+            "NINE" : [
+                {"name":"1-Bar Quantiza-tion", "mods":["COMMAND"]}
+            ],
+            "ZERO" : [
+                {"name":"Quantiza-tion Off", "mods":["COMMAND"]}
+            ]
+        },
+        "Working with Sets and the Program" : {
+            "N" : [
+                {"name":"New Live Set", "mods":["COMMAND"]}
+            ],
+            "O" : [
+                {"name":"Open Live Set", "mods":["COMMAND"]}
+            ],
+            "S" : [
+                {"name":"Save Live Set", "mods":["COMMAND"]},
+                {"name":"Save Live Set As...", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "Q" : [
+                {"name":"Quit Live", "mods":["COMMAND"]}
+            ],
+            "R" : [
+                {"name":"Export Audio/ Video", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "E" : [
+                {"name":"Export MIDI file", "mods":["COMMAND", "SHIFT"]}
+            ],
+            "H" : [
+                {"name":"Hide Live", "mods":["COMMAND"]}
+            ]
+        },
+        "Working with Plug-Ins and Devices" : {
+            "COMMAND" : [
+                {"name":"Open Second/Multiple Windows with Plug-In Edit Button", "mods":[]}
+            ],
+            "SHIFT" : [
+                {"name":"Open Mac Keystroke Plug-In Window with Plug-In Edit Button or Click to Append Devices to a Selected Device", "mods":[]}
+            ],
+            "G" : [
+                {"name":"Group/ Ungroup Devices", "mods":["COMMAND"]}
+            ],
+            "ALT" : [
+	                {"name":"Activate/De-activate All Devices in Group", "mods":[]}
+            ],
+            "P" : [
+                {"name":"Show/Hide Plug-In Windows", "mods":["ALT", "COMMAND"]}
+            ],
+            "ENTER" : [
+                {"name":"Load Selected Device From Browser", "mods":[]}
+            ]
+        }
+    }
+}
+
