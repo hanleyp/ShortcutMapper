@@ -260,10 +260,13 @@ function ShortcutMapper() {
                 'context': self.selectedContext
             });
             self.elemKeyboard.show();
+            self._updateKeyInfo();
         }).fail(function() {
             $("#keycontent").html("KEYBOARD NOT FOUND (Possibly doesn't exist for selected OS)");
         });
     };
+
+
 
     this._getCurrentOS = function() {
         var appver = navigator.appVersion.toLowerCase();

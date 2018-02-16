@@ -3,12 +3,12 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=1280, initial-scale=1.0">
-    <meta name="description" content="A visual shortcuts explorer for popular applications. Photoshop Shortcuts, Lightroom Shortcuts, Blender Shortcuts, Maya Shortcuts.">
-    <meta name="author" content="Waldo Bronchart">
+    <meta name="description" content="A visual shortcuts explorer for Ableton Live.">
+    <meta name="author" content="Waldo Bronchart, adapted by Paul Hanley">
     <meta property="og:image" content="content/images/screenshot.jpg" />
     <link rel="shortcut icon" href="content/images/favicon.ico">
 
-    <title>ShortcutMapper - Ableton Keyboard Shortcuts</title>
+    <title>Ableton Keyboard Shortcuts</title>
 
     <link href="content/stylesheets/style.css" rel="stylesheet">
 
@@ -28,32 +28,12 @@
         shortcutMapper.init();
     })
     </script>
-<!--     <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-50851062-1', 'waldobronchart.github.io');
-        ga('send', 'pageview');
-    </script> -->
 </head>
 
 <body>
     <div id="mainwrap">
         <header>
-            <h1>Ableton Shortcut Mapper</h1>
-            <p>A visual shortcuts explorer for popular applications.</p>
-
-            <div id="banners">
-                <ul>
-                    <li class="github">
-                        <a href="https://github.com/waldobronchart/ShortcutMapper">Contribute <span class="icon"></span></a>
-                    </li><li class="coin">
-                        <a href="https://www.blocktrail.com/BTC/address/12k2vqnJ7wyayXfewuQceNkf7FcPY3v83t" target="_blank" title="Humble Donation">&nbsp;<span class="icon"></span></a>
-                    </li>
-                </ul>
-            </div>
+            <h1 id="page_title">Ableton Keyboard Shortcuts</h1>
 
             <nav>
                 <div class="inputgroup">
@@ -65,11 +45,10 @@
                 <div class="inputgroup">
                     <select id="context_select" name="context_select" class="chosen-select"></select>
                 </div>
-                <div class="inputgroup">
+                <div class="inputgroup" style="display: none">
                     <!-- leave no spaces between buttons -->
                     <button id="os_windows" class="os-radiobutton os-windows leftfield" data-os="windows"><b></b>
-                    </button><button id="os_osx" class="os-radiobutton os-mac midfield" data-os="mac"><b></b>
-                    </button><button id="os_linux" class="os-radiobutton os-linux rightfield" data-os="windows"><b></b></button>
+                    </button><button id="os_osx" class="os-radiobutton os-mac rightfield" data-os="mac"><b></b>
                 </div>
                 <div class="inputgroup">
                     <select id="keyboardtype_select" name="keyboardtype_select" class="chosen-select keyboard-select"></select>
@@ -81,7 +60,6 @@
             <div id="contentwrap">
                 <div id="keycontent"></div>
                 <div id="othercontent">
-                    <div id="keyinfo"></div>
                     <div id="search">
                         <div id="searchbox">
                             <input id="searchfield" name="searchfield" placeholder="Search for shortcuts..." />
@@ -91,15 +69,15 @@
                     </div>
                     <div id="mousecontent"></div>
                 </div>
+                <div id="othercontent">
+                    <div id="keyinfo"></div>
+                </div>
             </div>
         </div>
         <div id="search_blurdetect"></div>
 
         <div id="footer">
             <span>
-                Developed and maintained by <a href="http://waldobronchart.be/">Waldo Bronchart</a> (<a href="https://twitter.com/wbronchart">@wbronchart</a>).
-                Humbly Accepting Donations at 
-                    <a href="https://www.blocktrail.com/BTC/address/12k2vqnJ7wyayXfewuQceNkf7FcPY3v83t">12k2vqnJ7wyayXfewuQceNkf7FcPY3v83t</a>.
             </span>
         </div>
     </div>
